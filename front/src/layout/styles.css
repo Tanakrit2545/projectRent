@@ -1,0 +1,246 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search-container {
+    display: flex;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 8px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .search-button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 90px;
+    background-color: #EADF00;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+  }
+
+  .motorrent-text {
+    font-size: 42px;
+    color: #EADF00; /* Set the text color to #EADF00 */
+    background-color: rgb(255, 255, 255);
+    padding: 5px 5px; /* Add padding to the text for better visibility */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+    margin-right: 10px;
+  }
+  
+  
+  .search-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .background-container {
+    background-image: url('../photos/loginnn.png'); /* ใช้ background-image เพื่อกำหนดรูปภาพเป็นพื้นหลัง */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh; /* ให้ความสูงเต็มหน้าจอ */
+  }  
+  /* ตกแต่งหน้า login */
+  /* .login-logo {
+    background-image: url('../photos/login.jpg');
+    width: 170px; 
+    height: 170px; 
+    background-size: cover; 
+    background-position: center; 
+    margin: 0 auto; 
+ 
+} */
+
+.login-logo {
+  /* background-image: url('../photos/login.jpg'); */
+  width: 170px; 
+  height: 170px; 
+  background-size: cover; 
+  background-position: center; 
+  margin: 0 auto; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif; /* Specify the desired font */
+}
+
+.logo-text {
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+}
+
+
+.header {
+  margin-top: auto;
+  margin-left: 100;
+  font-size: 56;
+}
+
+.logo {
+    width: 90px;
+    height: 90px; 
+    background-image: url('../photos/rim.jpg');
+    background-size: cover;
+    margin-bottom: 400px; 
+    margin-left: 10px; 
+    position: fixed; 
+    top: 15px;
+    left: 5px;
+    /* right: 50px;  */
+}
+
+
+
+.language-switch button {
+    color: rgb(0, 0, 0);
+    opacity: 0.7; 
+    transition: opacity 0.3s; 
+    padding-left: -110px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .language-switch button:hover {
+    opacity: 20; 
+    
+  }
+  
+  .language-switch button span {
+    left: 5px;
+    right: 5px; 
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+
+.login {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    text-align: center; 
+    margin: 0 auto; 
+    
+}
+
+
+  .login-border {
+    background-color: rgba(255, 255, 255, 0.804);
+    border: 1px solid #ccc; 
+    padding: 1rem; 
+    min-width: 500px;
+    margin: 0 auto; 
+    position: fixed; 
+}
+
+
+
+  /* แบบฟอร์ม */
+  .form-container {
+    width: 100%;
+    margin-top: 1px;
+    
+}
+
+.form-control {
+    width: 60%;
+    margin: 0 auto; 
+    margin-top: 20px;
+}
+  .input {
+    width: 100%;
+  }
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-radio {
+  margin-left: 30px;
+ 
+}
+.form-actions {
+    display: flex;
+    justify-content: center; /* จัดให้เป็นกึ่งกลางในแนวนอน */
+    margin-top: 20px;
+  }
+  .btn-success {
+    color: white; /* เปลี่ยนสีข้อความเป็นสีขาว */
+  }
+
+
+  .form-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .register-link {
+    margin-left: 278px;
+   
+  }
+  
+  .register-link a {
+    color: #2f8ae0;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+  
+
+  /* หน้า register */
+
+  
+  .login-border1 {
+    background-color: rgba(255, 255, 255, 0.804);
+    border: 1px solid #ccc;
+    margin: 0 auto; 
+    width: 650px; 
+    place-items: center; 
+    height: 87%;
+}
+
+.center {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(5, 5, 5);
+    font-weight: bold;
+    text-align: center; 
+    margin: 0 auto; 
+  }
+  .register-link1 {
+    margin-left: 430px;
+   
+  }
+  
+  .register-link1 a {
+    color: #2f8ae0;
+    text-decoration: none;
+    font-size: 12.5px;
+    font-weight: bold;
+    position: fixed;
+  }
+  
+  .register-link1 a:hover {
+    text-decoration: underline;
+  }
+  
+
+  
+  
+  
